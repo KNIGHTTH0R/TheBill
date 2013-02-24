@@ -4,10 +4,10 @@ $host="localhost";
 
 $root="root";
 $root_password="winshit";
-$user='Projectadmin';
-$pass='ProjAdmin!';
+$user='BillAdmin';
+$pass='BAdmin!';
 
-$db="ProjectManagement";
+$db="TheBill";
 
     try {
         $dbh = new PDO("mysql:host=$host", $root, $root_password);
